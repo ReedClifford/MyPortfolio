@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+    <!-- swiper -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+
+    <!-- tailwind -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    
+
+  </head>
+  <body class="bodyBackground">
+    <header
+      class="header-section" 
+    >
+      <nav class="navbar">
+        <div class="mobile">
+          <h1 class="myPortfolio"><a href="">My Portfolio</a></h1>
+          <div class="hamburger md:hidden">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-12 w-12"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M4 6h16M4 12h16M4 18h16"
+              />
+            </svg>
+          </div>
+        </div>
+
+        <ul class="hidden nav-items">
+          <li class="nav-links">
+            <a href="#about-me" class="">About Me</a>
+          </li>
+          <li class="nav-links">
+            <a href="#skills-section">Skills</a>
+          </li>
+          <li class="nav-links">
+            <a href="#projects">Projects</a>
+          </li>
+      
+        </ul>
+      </nav>
+      <main class="main-container " >
+        <h1 class="main-header-text">Reed Clifford D. Palbacal</h1>
+        <h2 class="subheader-text">Im an, <span class="span"></span></h2>
+        <div class="header-btn-container">
+          <a href="" class="header-btn1"><button >Contact Me</button></a>
+          
+          <a href="https://drive.google.com/file/d/1qtZzbsfKg3EWyiM14YtXqJTysuoYyIfo/view?usp=sharing"class="header-btn2"><button >My Resume</button></a>
+        </div>
+      </main>
+    </header>
+
+    <section id="about-me" class="about-me">
+      <div class="about-me-text " data-aos="fade-right" data-aos-delay="500">
+        <h2 class="subheader-text" data-aos="zoom-in">About me</h2>
+        <h1 class="header-text">Im, <span class="type"></span></h1>
+        <h2 class="subheader-text">a Web Developer</span></h2>
+
+        <p class="paragraph">
+         I am a freelancer based in Batangas , Philippines, and I'm very passionate and dedicated to my work.As a 
+          fresh graduate of Bachelor in Science of Information Technology on University of Batangas,I still lacked experience but im confident with the knowledge I know
+          . Im looking forward at the experiences that i will acquire,like learning new things,overcoming
+          challenges,meeting goals and targets,being frustrated of things that i lack knowledge about and alsolearning
+          from it.Because the gratification of overcoming an obstacle is my greatest motivator and
+          feeling of accomplishment that comes with exceeding challenging goals is what drew me to my
+          choosen path.use.
+          
+        </p>
+
+        <div class="btn-container">
+          <a href="https://www.facebook.com/clifford.palbacal/"
+            ><button class="socmed-btn">
+              <i class="fa-brands fa-facebook fa-lg"></i></button
+          ></a>
+          <a href="https://twitter.com/Cliffoooordddd">
+            <button class="socmed-btn">
+              <i class="fa-brands fa-twitter fa-lg"></i>
+            </button>
+          </a>
+          <a href="https://www.instagram.com/cliffoooordddd/">
+            <button class="socmed-btn">
+              <i class="fa-brands fa-instagram fa-lg"></i>
+            </button>
+          </a>
+        </div>
+      </div>
+      <div class="myPhoto" data-aos="zoom-in-up"  data-aos-delay="300">
+        <img src="image/me.jpg" alt="" srcset="" class="me-photo" />
+      </div>
+    </section>
+    
+
+
+    <section class="skills-section" id="skills-section" >
+      <div class="skills-set">
+        <h2 class="subheader-text col-span-4" data-aos="zoom-in">Skills</h2>
+        <p class="paragraphs col-span-4"><span class="skills-paragraph"></span></p>
+        <div class="skill-card" data-aos="flip-up" data-aos-delay="500">
+          
+          <img src="image/skills/w3_html5-icon.svg" alt="" srcset="" class="w-full h-full ">
+          <p class="paragraphs">HTML5</p>
+        </div>
+        <div class="skill-card" data-aos="flip-up" data-aos-delay="500">
+          <img src="image/skills/w3_css-icon.svg" alt="" class="w-full h-full ">
+          <p class="paragraphs">CSS3</p>
+        </div >
+        <div class="skill-card" data-aos="flip-up" data-aos-delay="500">
+          <img src="image/skills/javascript-icon.svg" alt="" srcset="" class="w-full h-full ">
+          <p class="paragraphs">Javascript</p>
+        </div>
+        <div class="skill-card" data-aos="flip-up" data-aos-delay="500">
+          <img src="image/skills/php-icon.svg" alt="" class="w-full h-full ">
+          <p class="paragraphs">Php</p>
+        </div>
+        <div class="skill-card" data-aos="flip-up" data-aos-delay="800">
+          <img src="image/skills/mysql-icon.svg" alt="" srcset="" class="w-full h-full ">
+          <p class="paragraphs">MySqli</p>
+        </div>
+        <div class="skill-card" data-aos="flip-up" data-aos-delay="800">
+          <img src="image/skills/getbootstrap-icon.svg" alt="" srcset="" class="w-full h-full ">
+          <p class="paragraphs">Bootstrap</p>
+        </div>
+        <div class="skill-card" data-aos="flip-up" data-aos-delay="800">
+          <img src="image/skills/tailwindcss-icon.svg" alt="" srcset="" class="w-full h-full ">
+          <p class="paragraphs">Tailwind</p>
+        </div>
+        <div class="skill-card" data-aos="flip-up" data-aos-delay="800">
+          <img src="image/skills/jquery-icon.svg" alt="" srcset="" class="w-full h-full ">
+          <p class="paragraphs">jQuery</p>
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <section class="container mx-auto p-10 text-slate-400  items-center  h-full mt-16" id="projects">
+      <h2 class="subheader-text" data-aos="zoom-in">Projects</h2>
+      <p class="paragraph"><span class="project-paragraph"></span></p>
+
+
+      <div class="grid grid-cols-1  md:grid-cols-2 gap-8">
+        <div class="col-span-2 mt-16 rounded-md  p-9 text-slate-300  border-sky-400 shadow-lg shadow-sky-500/50 " data-aos="fade-up-right"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000">
+          <h2 class="text-3xl font-bold my-5" data-aos="zoom-in">AMPawN</h2>
+
+
+
+          
+          <div class="swiper">
+           
+            <div class="swiper-wrapper">
+             
+              <div class="swiper-slide"><img src="image/projects/ampawn.png" alt=""></div>
+              <div class="swiper-slide"><img src="image/projects/ampawn2.png" alt=""></div>
+              <div class="swiper-slide"><img src="image/projects/ampawn3.png" alt=""></div>
+              <div class="swiper-slide"><img src="image/projects/ampawn4.png" alt=""></div>
+              <div class="swiper-slide"><img src="image/projects/ampawn5.png" alt=""></div>
+              <div class="swiper-slide"><img src="image/projects/ampawn6.png" alt=""></div>
+              <div class="swiper-slide"><img src="image/projects/ampawn7.png" alt=""></div>
+              <div class="swiper-slide"><img src="image/projects/ampawn8.png" alt=""></div>
+       
+              
+           
+
+            </div>
+            
+            <div class="swiper-pagination"></div>
+          
+
+          
+        
+            <div class="swiper-scrollbar"></div>
+          </div>
+
+
+        
+          <div class="mt-5 ">
+            <span><i class="fa-brands fa-html5 fa-xl"></i></span>
+            <span><i class="fa-brands fa-css3 fa-xl"></i></span>
+            <span><i class="fa-brands fa-php fa-xl"></i></span>
+            <span><i class="fa-brands fa-js fa-xl"></i></span>
+
+          </div>
+          <p class="paragraph mt-5"><span class="ampawn"></span></p>
+          <div class="flex flex-col md:flex-row gap-5">
+            <a href="https://github.com/ReedClifford/Ampawns">
+              <button class="project-dl-btn">Check Github Repo</button></a>
+          </div>
+        </div>
+    
+        <div class="col-span-2 mt-16 rounded-md  p-9 text-slate-300  border-sky-400 shadow-lg shadow-sky-500/50 " data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="10000">
+          <h2 class="text-3xl font-bold my-5" data-aos="zoom-in">My Ub E-Store</h2>
+
+
+
+          <div class="swiper">
+        
+            <div class="swiper-wrapper">
+
+              <div class="swiper-slide"><img src="image/projects/myubestore.png" alt=""></div>
+              <div class="swiper-slide"><img src="image/projects/myubestore2.png" alt=""></div>
+              <div class="swiper-slide"><img src="image/projects/myubestore3.png" alt=""></div>
+              <div class="swiper-slide"><img src="image/projects/myubestore4.png" alt=""></div>
+              <div class="swiper-slide"><img src="image/projects/myubestore5.png" alt=""></div>
+              <div class="swiper-slide"><img src="image/projects/myubestore6.png" alt=""></div>
+              <div class="swiper-slide"><img src="image/projects/myubestore7.png" alt=""></div>
+              
+           
+
+            </div>
+        >
+            <div class="swiper-pagination"></div>
+          
+
+          
+  
+            <div class="swiper-scrollbar"></div>
+          </div>
+
+
+        
+          <div class="mt-5">
+            <span><i class="fa-brands fa-html5 fa-xl"></i></span>
+            <span><i class="fa-brands fa-css3 fa-xl"></i></span>
+            <span><i class="fa-brands fa-bootstrap fa-xl"></i></span>
+            <span><i class="fa-brands fa-php fa-xl"></i></span>
+            <span><i class="fa-brands fa-js fa-xl"></i></span>
+
+          </div>
+          <p class="paragraph mt-5"><span class="capstone"></span></p>
+          <div class="flex flex-col md:flex-row gap-5">
+            <a href="https://github.com/ReedClifford/My-UB-E-STORE">
+              <button class="project-dl-btn">Check Github Repo</button></a>
+            
+          </div>
+        </div>
+
+
+        <div class="col-span-2 mt-16 rounded-md  p-9 text-slate-300   border-sky-400 shadow-lg shadow-sky-500/50 " data-aos="zoom-out-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="20000">
+          <h2 class="text-3xl font-bold my-5" data-aos="zoom-in">E-Brahman Inquiry System</h2>
+
+
+
+        
+          <div class="swiper">
+          
+            <div class="swiper-wrapper">
+
+              <div class="swiper-slide"><img src="image/projects/OJT.png" alt=""></div>
+              <div class="swiper-slide"><img src="image/projects/OJT2.png" alt=""></div>
+              <div class="swiper-slide"><img src="image/projects/OJT3.png" alt=""></div>
+              <div class="swiper-slide"><img src="image/projects/OJT4.png" alt=""></div>
+              <div class="swiper-slide"><img src="image/projects/ojt5.png" alt=""></div>
+              <div class="swiper-slide"><img src="image/projects/ojt6.png" alt=""></div>
+              <div class="swiper-slide"><img src="image/projects/ojt7.png" alt=""></div>
+              <div class="swiper-slide"><img src="image/projects/ojt8.png" alt=""></div>
+              <div class="swiper-slide"><img src="image/projects/ojt9.png" alt=""></div>
+
+            </div>
+ 
+            <div class="swiper-pagination"></div>
+          
+
+          
+
+            <div class="swiper-scrollbar"></div>
+          </div>
+
+
+        
+          <div class="mt-5">
+            <span><i class="fa-brands fa-html5 fa-xl"></i></span>
+            <span><i class="fa-brands fa-css3 fa-xl"></i></span>
+            <span><i class="fa-brands fa-bootstrap fa-xl"></i></span>
+            <span><i class="fa-brands fa-php fa-xl"></i></span>
+            <span><i class="fa-brands fa-js fa-xl"></i></span>
+
+          </div>
+          <p class="paragraph mt-5"><span class="ojt"></span></p>
+          <div class="flex flex-col md:flex-row gap-5">
+            <a href="https://github.com/ReedClifford/ebrahman-inquiry">
+              <button class="project-dl-btn">Check Github Repo</button></a>
+        
+          </div>
+          
+        </div>
+
+        
+    
+
+      </div>
+
+     
+    </section>
+
+
+    
+
+      
+
+      
+   <footer class="contact-section">
+    <h2 class="subheader-text" data-aos="zoom-in">Contact Me</h2>
+    <div class="contact-container" data-aos="fade-right" data-aos-duration="10000">
+      <div class="border-sky-400 shadow-sm shadow-sky-500/50    p-10 col-span-1 text-center gap-4">
+        <h3 class="contact-header">Location</h3>
+        <h4 class="paragraph">Batangas ,Philippines</h4>
+
+        <h3 class="contact-header">Email</h3>
+        <h4 class="paragraph">palbacalclifford12@yahoo.com.ph</h4>
+        <h4 class="paragraph">hakubaaaa@gmail.com</h4>
+
+        <h3 class="contact-header">Contact Number</h3>
+        <h4 class="paragraph">09084161980</h4>
+      </div>
+
+
+      <div class="form" data-aos="fade-up-right" data-aos-duration="10000">
+        <form action="" class="flex flex-col gap-4">
+          <input type="text" id="fullName" class="inputs" placeholder="Name" required>
+          <input type="email" id="email_id"class="inputs" placeholder="Email" required>
+          <textarea name="" id="message" class ="inputs" cols="20" placeholder = "message" rows="10" required></textarea>
+          <input type="button" class="submit-btn" value="Submit" onclick="SendMail()">
+          
+          
+  
+        </form>
+      </div>
+
+    </div>
+
+   </footer>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+    
+
+    
+
+
+    <!-- SCRIPTS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="index.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    
+  </body>
+</html>
