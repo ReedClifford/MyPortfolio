@@ -1,0 +1,126 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bodyBackground {
+  @apply bg-black md:bg-gradient-to-r from-zinc-900 via-gray-900 to-black;
+}
+
+.navbar {
+  @apply flex flex-col gap-6  md:flex-row justify-between items-center  p-4 container mx-auto;
+}
+.mobile {
+  @apply flex justify-between items-center gap-16;
+}
+.myPortfolio {
+  @apply text-sky-400  items-center  font-bold md:font-extrabold text-transparent  bg-clip-text bg-gradient-to-r from-cyan-100 via-sky-200 to-blue-300 justify-items-center  text-4xl;
+}
+
+.hamburger {
+  @apply text-sky-500 cursor-pointer items-center;
+}
+
+.nav-items {
+  @apply md:flex font-semibold text-slate-400  justify-between items-center gap-2  w-96;
+}
+
+.nav-links {
+  @apply md:text-slate-400 flex justify-evenly items-center w-96 font-semibold hover:text-slate-200;
+}
+.active {
+  @apply border-b-4 border-sky-500;
+}
+.nav-btn {
+  @apply md:rounded-full bg-sky-700 p-2 border-blue-600 text-white hover:bg-sky-500 w-28;
+}
+.span {
+  @apply text-sky-400;
+}
+.main-container {
+  @apply flex flex-col justify-center items-center h-full;
+}
+.main-header-text {
+  @apply font-extrabold text-transparent text-3xl bg-clip-text bg-gradient-to-r from-slate-200 via-slate-400 to-slate-600 md:text-6xl;
+}
+.header-section {
+  @apply h-screen w-screen bg-picture-bg bg-cover bg-center mix-blend-screen bg-black;
+}
+.header-btn-container {
+  @apply flex flex-col gap-5 mt-8 w-80 md:w-3/12;
+}
+.header-btn1 {
+  @apply rounded-full bg-sky-700 p-5 border-blue-600 text-white hover:bg-sky-500  text-center md:w-full;
+}
+.header-btn2 {
+  @apply rounded-full  p-5 border text-sky-600 border-sky-600  hover:bg-sky-500  text-center md:w-full;
+}
+
+.about-me {
+  @apply   container mx-auto p-3  text-slate-400   items-center h-screen md:grid grid-cols-2;
+}
+.about-me-text{
+  @apply flex flex-col justify-center  gap-2 my-auto p-10;
+}
+
+.subheader-text {
+  @apply mt-4 text-3xl font-medium text-transparent bg-clip-text bg-gradient-to-r from-slate-200 via-slate-400 to-slate-600;
+}
+
+.header-text {
+  @apply font-extrabold text-transparent text-6xl bg-clip-text bg-gradient-to-r from-slate-200 via-slate-400 to-slate-600;
+}
+.paragraphs {
+  @apply text-lg;
+}
+.btn-container {
+  @apply flex gap-3 items-center justify-center md:justify-start;
+}
+.socmed-btn {
+  @apply w-20 border-solid border-2 border-sky-700 rounded-full p-2 hover:border-sky-400;
+}
+
+.myphoto {
+  @apply p-4 mx-auto  mt-20 md:mt-20;
+}
+
+.me-photo {
+  @apply  opacity-0 md:opacity-100 rounded-full items-center contrast-125 mx-auto w-9/12 mt-20;
+}
+
+
+.skills-section{
+  @apply container mx-auto p-3 text-slate-400  items-center  h-full mt-16 ;
+}
+.skills-set{
+  @apply flex flex-col justify-between gap-10 md:grid grid-cols-4  p-10;
+}
+
+.skill-card{
+  @apply  rounded  p-9 text-slate-300  border-sky-400 shadow-md shadow-sky-500/50 hover:bg-cyan-700 shadow-lg shadow-cyan-500/50 cursor-pointer ;
+}
+.project-dl-btn{
+  @apply bg-cyan-700 shadow-lg shadow-cyan-500/50 p-2 w-52 mt-8 hover:bg-cyan-900;
+}
+
+.submit-btn{
+  @apply border-2 border-sky-700 shadow-md shadow-cyan-500/50 p-2 w-52 mt-8 hover:bg-cyan-700 cursor-pointer;
+}
+.contact-section{
+  @apply container mx-auto p-3 text-slate-400  items-center  h-full mt-16;
+}
+
+.contact-header{
+  @apply text-sky-500 font-bold text-lg my-3;
+}
+
+.form{
+  @apply border-sky-400 shadow-md shadow-sky-500/50  p-10 col-span-3;
+}
+
+
+.inputs{
+  @apply rounded border-sky-400 bg-slate-800 p-4 ;
+}
+.contact-container{
+  @apply flex flex-col  md:grid grid-cols-4 gap-3 mt-10;
+}
